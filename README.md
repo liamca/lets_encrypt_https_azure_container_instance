@@ -12,7 +12,7 @@ Then download certbot (https://certbot.eff.org/) to your local computer and run 
 certbot certonly --manual -d <DOMAIN_NAME>.<AZURE_REGION>.azurecontainer.io
 ```
 
-This will give you the challenge response string that needs to be added to this Azure Container Instance. From a browser enter this challenge response string to: 
+This will give you the challenge response string that needs to be added to this Azure Container Instance.  Do not press enter or cancel the certbot process. We will come back to it. From a browser enter the challenge response string.
 
 ```
 http://<DOMAIN_NAME>.<AZURE_REGION>.azurecontainer.io/save_challenge/<CHALLENGE_STRING>
