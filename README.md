@@ -12,7 +12,7 @@ This will give you the challenge string that needs to be added to this Azure Con
 
 From a browser enter this challenge response string to: 
 
-http://<DOMAIN_NAME>.<AZURE_REGION>.azurecontainer.io/save_challenge/<CHALLENGE_STRING?
+http://<DOMAIN_NAME>.<AZURE_REGION>.azurecontainer.io/save_challenge/<CHALLENGE_STRING>
 
 You should see a message indicating it saved the challenge response string.
 
