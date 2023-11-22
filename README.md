@@ -20,7 +20,7 @@ http://<DOMAIN_NAME>.<AZURE_REGION>.azurecontainer.io/save_challenge/<CHALLENGE_
 
 You should see a message indicating it saved the challenge response string.
 
-Go back to the certbot process and press
+Go back to the certbot process and press <ENTER> to let certbot validate your challenge response string
 
 Make note of the location where the certificate and keys are stored.
 
