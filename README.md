@@ -4,9 +4,9 @@ Deploy [this image](https://hub.docker.com/repository/docker/liamca/aci-lets-enc
 
 az container create --resource-group <RESOURCE_GROUP> --name <DOMAIN_NAME> --image liamca/aci-lets-encrypt --cpu 1 --memory 4 --dns-name-label <DOMAIN_NAME> --ports 80 --location
 
-Then download certbot (https://certbot.eff.org/) to your local computer and run the following (from a command prompt with Administrator access) replacing the Domain Name and if needed the region:
+Then download certbot (https://certbot.eff.org/) to your local computer and run the following (from a command prompt with Administrator access) replacing the Domain Name and the region:
 
-certbot certonly --manual -d <DOMAIN_NAME>.
+certbot certonly --manual -d <DOMAIN_NAME>.<REGION>.azurecontainer.io
 
 This will give you the challenge string that needs to be added to this Azure Container Instance
 
