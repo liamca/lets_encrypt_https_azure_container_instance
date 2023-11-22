@@ -6,7 +6,7 @@ az container create --resource-group <RESOURCE_GROUP> --name <DOMAIN_NAME> --ima
 
 Then download certbot (https://certbot.eff.org/) to your local computer and run the following (from a command prompt with Administrator access) replacing the Domain Name and the region:
 
-certbot certonly --manual -d <DOMAIN_NAME>.<REGION>.azurecontainer.io
+certbot certonly --manual -d <DOMAIN_NAME>.<AZURE-REGION>.azurecontainer.io
 
 This will give you the challenge string that needs to be added to this Azure Container Instance
 
